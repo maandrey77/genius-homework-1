@@ -1,6 +1,18 @@
+:root{
+    --main-color: #2B7FFF;
+    --main-color-text:#011C44;
+    --footer-color: #011C44;
+}
+span{
+    color: var(--main-color);
+}
 footer{
     background-color: aquamarine;
 }
 h1{
     border: solid 1px blue;
+    color: var(--main-color);
+}
+.footer{
+    background-color: var(--footer-color);
 }
